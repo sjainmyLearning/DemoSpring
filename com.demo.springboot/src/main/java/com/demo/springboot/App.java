@@ -17,6 +17,7 @@ public class App
     {
 
     	SpringApplication.run(App.class, args);
+        // a new text for testing
     }
 
 }
