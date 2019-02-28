@@ -1,0 +1,5 @@
+FROM openjdk:8-jdk-alpine
+LABEL author="demouser" email="xyz@demouser.com"
+ARG JAR_FILE
+COPY target/DemoApp.jar DemoApp.jar
+ENTRYPOINT ["java","-jar","/DemoApp.jar"]

@@ -1,0 +1,18 @@
+version: '2'
+
+services:
+  javademo:
+    build:
+      context: .
+      dockerfile: dockerfile
+    working_dir: /host/demodir
+    ports: 
+      - "8080:8080"
+    volumes:
+        - /Users/mac/demodir:/host/demodir
+    networks: 
+      - standalone-network       
+
+networks:
+  standalone-network:
+    
