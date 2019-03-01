@@ -20,6 +20,7 @@ public class App
         // a new text for testing
         // one more comment is added
         // comment - 2
+        //comment added after update from another source
     }
 
 }
