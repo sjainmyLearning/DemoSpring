@@ -23,6 +23,8 @@ public class App
         //comment added after update from another source
 	// comment added from different source 
     // demospring update
+    // demospring_clone update
+    // demospring_clone-1 update
     }
 
 }
